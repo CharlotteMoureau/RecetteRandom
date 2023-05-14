@@ -19,20 +19,25 @@
       <h1 id="title">La lutte anti-boh !</h1>
     </header>
     <main>
-      <div class="button">
+      <div id="button">
         <button id="btn">Recette au hasard</button>
       </div>
       <div id="recipe">
-        <div class="recipeTop">
-          <h2 id="recipeTitle"></h2>
-          <img id="recipePicture" />
-          <div class="detail">
-            <p id="recipeTime"></p>
-            <p id="recipeServings"></p>
+        <div id="recipe-top">
+          <h2 id="recipe-title"></h2>
+          <div id="img"><img id="recipe-picture" /></div>
+          <div id="detail">
+            <p id="recipe-time"></p>
+            <p id="recipe-servings"></p>
           </div>
         </div>
-        <ul id="recipeIngredients"></ul>
-        <ul id="recipeSteps"></ul>
+        <ul id="recipe-ingredients"></ul>
+        <div id="link">
+          <button id="cta-link" class="hidden">
+            <a id="recipe-link" href="#" target="_blank"></a>
+          </button>
+        </div>
+        <!-- <ul id="recipeSteps"></ul> -->
       </div>
     </main>
     <footer></footer>
